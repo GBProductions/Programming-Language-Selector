@@ -8,8 +8,7 @@ $("#formSurvey").submit(function(event) {
   const planet = ($("input:radio[name=planet]:checked").val());
 
 
-
-  if (music) {
+  if (music === "Jazz") {
     $('#javascript').show();
   } else {
     $('#javascript').hide();
