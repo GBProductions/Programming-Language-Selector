@@ -4,11 +4,12 @@ body {
 
 h2 {
   text-align: center;
-  background-color: papayawhip;
-  border: black;
 }
 
 #header {
   border: solid black;
   border-width: 5px;
+  margin: auto;
+  padding: 2%;
+  background-color: papayawhip;
 }
