@@ -13,3 +13,9 @@ h2 {
   padding: 2%;
   background-color: papayawhip;
 }
+
+.btn {
+  background-color: lightgray;
+  border-width: 1px;
+  border-color: black;
+}
