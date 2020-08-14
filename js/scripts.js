@@ -13,5 +13,15 @@ $("#formSurvey").submit(function(event) {
   } else {
     $('#javascript').hide();
   } 
+  if (music === "Jazz") {
+    $('#ruby').show();
+  } else {
+    $('#ruby').hide();
+  }
+  if (music === "Jazz") {
+    $('#react').show();
+  } else {
+    $('#react').hide();
+  }
   });
 });
