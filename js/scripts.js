@@ -1,6 +1,7 @@
 $(document).ready(function() {
 $("#formSurvey").submit(function(event) {
   event.preventDefault();
+  console.log(Hi);
   const music = ($("input:radio[name=music]:checked").val());
   const color = ($("input:radio[name=color]:checked").val());
   const pet = ($("input:radio[name=pet]:checked").val());
@@ -9,6 +10,10 @@ $("#formSurvey").submit(function(event) {
 
 
 
-  
+  if (music === Jazz) {
+    $('#javascript').show();
+  } else {
+    $('#javascript').hide();
+  }
   });
 });
