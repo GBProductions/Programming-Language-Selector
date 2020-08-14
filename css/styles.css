@@ -1,0 +1,14 @@
+body {
+  background-color: pink;
+}
+
+h2 {
+  text-align: center;
+  background-color: papayawhip;
+  border: black;
+}
+
+#header {
+  border: solid black;
+  border-width: 5px;
+}
