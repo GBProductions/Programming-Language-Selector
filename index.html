@@ -7,28 +7,28 @@
   <script src="js/scripts.js"></script>
   <title>Programming Language Suggester</title>
 </head>
+
 <body>
+<div class="container">
   <div id="header">
     <h2>Which Programming Language Should I Use?</h2>
   </div>
-
-  <div class="container">
     <p>Learning to program doesn't have to be a challenge! The first thing to decide is choosing what
-      languages you want to code in! Answer the survey (one answer per question) and let us tell you what you
+      you want to code in! Answer the survey (one answer per question) and let us tell you what you
       should study!</p>
   <hr>
-  <form id="formSurvey">
-    <div class="radio">
-      <p>Question 1: What type of music do you want to listen to?</p>
-      <label><input type="radio" name="music" value="Jazz">Jazz</label></div>
-    <div class="radio">
-      <label><input type="radio" name="music" value="Country">Country</label></div>
+    <form id="formSurvey">
+      <div class="radio">
+        <p>Question 1: What type of music do you want to listen to?</p>
+        <label><input type="radio" name="music" value="Jazz">Jazz</label></div>
+      <div class="radio">
+        <label><input type="radio" name="music" value="Country">Country</label></div>
   <hr>
     <div class="radio">
       <p>Question 2: You just got your dream car: what color is it?</p>
-       <label><input type="radio" name="color" value="Red" >Red</label></div>
-      <div class="radio">
-        <label><input type="radio" name="color" value="Blue" >Blue</label></div>
+      <label><input type="radio" name="color" value="Red" >Red</label></div>
+    <div class="radio">
+      <label><input type="radio" name="color" value="Blue" >Blue</label></div>
   <hr>
     <div class="radio">
       <p>Question 3: What type of pet do you want?</p>
@@ -38,26 +38,26 @@
   <hr>
     <div class="radio">
       <p>Question 4: What item of clothing is the coolest?</p>
-      <label><input type="radio" name="clothing" value="Hat">Hat</label>
+      <label><input type="radio" name="clothing" value="Hat">Hat</label></div>
     <div class="radio">
       <label><input type="radio" name="clothing" value="Scarf">Scarf</label></div>
   <hr>
     <div class="radio">
       <p>Question 5: Choose a planet you want to visit. </p>
-      <label><input type="radio" name="planet" value="Venus">Venus</label>
+      <label><input type="radio" name="planet" value="Venus">Venus</label></div>
     <div class="radio">
       <label><input type="radio" name="planet" value="Mars">Mars</label></div>
     <div>
-      <button type="submit" class="btn"> Submit</button>
-    </div>
-  </form>
+      <button type="submit" class="btn"> Submit</button></div>
+    </form>
+  <hr>
+</div>
   <p></p>
   <p></p>
   <p></p>
-  <div><p id="javascript">Looks like you should study JavaScript!</p></div>
-  <div><p id="ruby">Looks like you should study Ruby!</p></div>
-  <div><p id="react">Looks like you should study React!</p></div>
+    <div><p class=answer id="javascript">Looks like you should study JavaScript!</p></div>
+    <div><p class=answer id="ruby">Looks like you should study Ruby!</p></div>
+    <div><p class=answer id="react">Looks like you should study React!</p></div>
 
-  </div>
 </body>
 </html>
