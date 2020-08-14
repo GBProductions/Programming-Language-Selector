@@ -8,20 +8,23 @@ $("#formSurvey").submit(function(event) {
   const planet = ($("input:radio[name=planet]:checked").val());
 
 
-  if (music === "Jazz") {
+  if (music === "Jazz" && color === "Red" || pet === "Dog" && pet === "Cat" || clothing === "Hat" && clothing === "Scarf" || planet === "Venus" && planet === "Mars") {
     $('#javascript').show();
   } else {
     $('#javascript').hide();
   } 
-  if (music === "Jazz") {
+  if (music === "Country" || color === "Blue" && color === "Red" || pet === "Dog" && pet === "Cat" || clothing === "Hat" && clothing === "Scarf" || planet === "Venus" && planet === "Mars") {
     $('#ruby').show();
   } else {
     $('#ruby').hide();
   }
-  if (music === "Jazz") {
+  if (music === "Jazz" && color === "Blue" || pet === "Cat" || clothing === "Hat" && clothing === "Scarf" || planet === "Venus" && planet === "Mars") {
     $('#react').show();
   } else {
     $('#react').hide();
   }
   });
 });
+
+
+// && pet === "Dog" && clothing === "Hat" && planet === "Venus")
