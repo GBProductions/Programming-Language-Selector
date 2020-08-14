@@ -42,3 +42,11 @@ h2 {
   padding: 2%;
   background-color: papayawhip;
 }
+
+img {
+  height: Auto;
+  width: 200px;
+  margin-right: 5px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
