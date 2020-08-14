@@ -13,6 +13,6 @@ $("#formSurvey").submit(function(event) {
     $('#javascript').show();
   } else {
     $('#javascript').hide();
-  }
+  } 
   });
 });
