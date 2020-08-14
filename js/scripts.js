@@ -18,13 +18,10 @@ $("#formSurvey").submit(function(event) {
   } else {
     $('#ruby').hide();
   }
-  if (music === "Jazz" && color === "Blue" || pet === "Cat" || clothing === "Hat" && clothing === "Scarf" || planet === "Venus" && planet === "Mars") {
+  if (music === "Jazz" && color === "Blue") {
     $('#react').show();
   } else {
     $('#react').hide();
   }
   });
 });
-
-
-// && pet === "Dog" && clothing === "Hat" && planet === "Venus")
