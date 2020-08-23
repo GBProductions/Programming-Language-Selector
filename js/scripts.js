@@ -8,12 +8,12 @@ $("#formSurvey").submit(function(event) {
   const planet = ($("input:radio[name=planet]:checked").val());
 
 
-  if (music === "Jazz" && color === "Red" || pet === "Dog" && pet === "Cat" || clothing === "Hat" && clothing === "Scarf" || planet === "Venus" && planet === "Mars") {
+  if (music === "Jazz" && color === "Red") {
     $('#javascript').show();
   } else {
     $('#javascript').hide();
   } 
-  if (music === "Country" || color === "Blue" && color === "Red" || pet === "Dog" && pet === "Cat" || clothing === "Hat" && clothing === "Scarf" || planet === "Venus" && planet === "Mars") {
+  if (music === "Country") {
     $('#ruby').show();
   } else {
     $('#ruby').hide();
