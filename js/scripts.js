@@ -6,7 +6,7 @@ $("#formSurvey").submit(function(event) {
   const pet = ($("input:radio[name=pet]:checked").val());
   const clothing = ($("input:radio[name=clothing]:checked").val());
   const planet = ($("input:radio[name=planet]:checked").val());
-  const hide = ($("input:btn [name=resetBtn]").val());
+
 
 
   if (music === "Jazz" && color === "Red") {
@@ -23,11 +23,6 @@ $("#formSurvey").submit(function(event) {
     $('#react').show();
   } else {
     $('#react').hide();
-  }
-  if (hide) {
-    $('.answer').show();
-  } else {
-    $('.answer').hide();
   }
   });
 });
